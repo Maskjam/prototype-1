@@ -3,7 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
-{// speed of vehicle
+{
+    // for turning the car
+    public float turnSpeed;
+    // speed of vehicle
     public float speed = 20;
     // Start is called before the first frame update
     void Start()
