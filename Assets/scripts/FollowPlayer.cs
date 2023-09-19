@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class FollowPlayer : MonoBehaviour
-{   
+{ 
+
   // What to follow
     public GameObject player;
     //To put the camra in position
@@ -18,5 +19,6 @@ public class FollowPlayer : MonoBehaviour
     void LateUpdate()
     {
       transform.position = player.transform.position + offset;
+
     }
 }
