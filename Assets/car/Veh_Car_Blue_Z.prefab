@@ -451,6 +451,7 @@ GameObject:
   - component: {fileID: 7942624551960339960}
   - component: {fileID: 5030468711368122}
   - component: {fileID: 722068971037375542}
+  - component: {fileID: -2095189265225764620}
   m_Layer: 0
   m_Name: Veh_Car_Blue_Z
   m_TagString: Untagged
@@ -556,3 +557,15 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &-2095189265225764620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7942624551958131990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b536c0046fd0a443aa903aa13b6090a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
